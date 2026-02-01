@@ -1,0 +1,13 @@
+names:
+- Littering
+- Person
+nc: 2
+path: /Users/kaushalkento/Desktop/College/Garbage-Littering-Detection-1
+roboflow:
+  license: CC BY 4.0
+  project: garbage-littering-detection
+  url: https://universe.roboflow.com/trafficvmd/garbage-littering-detection/dataset/1
+  version: 1
+  workspace: trafficvmd
+train: train/images
+val: train/images

@@ -1,0 +1,6 @@
+.env
+/Garbage-Littering-Detection-1/train
+/runs
+/__pycache__
+/.venv
+yolov8n.pt
