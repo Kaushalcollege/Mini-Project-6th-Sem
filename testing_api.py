@@ -1,9 +1,7 @@
 import requests
 
-# 1. Configuration
-# Change port to 5000 if you managed to use that, otherwise keep 5001
 url = 'http://127.0.0.1:8000/detect' 
-image_path = 'test.jpg' # Make sure this file exists!
+image_path = 'test.jpg' 
 
 print(f"Sending {image_path} to AI server...")
 
@@ -19,6 +17,6 @@ try:
     print(response.json())
 
 except FileNotFoundError:
-    print("❌ Error: test_image.jpg not found. Please add an image to the folder.")
+    print("Error: test_image.jpg not found. Please add an image to the folder.")
 except Exception as e:
-    print(f"❌ Connection Error: Is the server running? ({e})")
+    print(f"Connection Error: Is the server running? ({e})")
