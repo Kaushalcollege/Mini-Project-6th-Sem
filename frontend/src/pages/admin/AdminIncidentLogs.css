@@ -1,0 +1,133 @@
+/* src/pages/admin/AdminIncidentLogs.css */
+.logs-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.logs-title h2 {
+  font-size: 1.8rem;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.logs-title p {
+  color: var(--gray-500);
+  font-size: 0.95rem;
+}
+
+.logs-controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: 6px;
+  padding: 0.5rem 0.8rem;
+  width: 300px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  margin-left: 0.5rem;
+  width: 100%;
+  font-size: 0.9rem;
+  color: var(--gray-900);
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: 6px;
+  color: var(--gray-700);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.action-btn:hover {
+  background-color: var(--gray-50);
+  color: var(--gray-900);
+}
+
+.logs-table-container {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.full-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.full-table th {
+  padding: 1rem 1.5rem;
+  font-size: 0.8rem;
+  color: var(--gray-500);
+  border-bottom: 1px solid var(--gray-200);
+  background-color: var(--gray-50);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.full-table td {
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+  color: var(--gray-700);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.full-table tr:last-child td {
+  border-bottom: none;
+}
+
+.full-table tr:hover {
+  background-color: var(--gray-50);
+}
+
+.priority-high {
+  color: var(--red-700);
+  font-weight: 600;
+}
+.priority-medium {
+  color: var(--amber-700);
+  font-weight: 600;
+}
+.priority-low {
+  color: var(--gray-600);
+  font-weight: 600;
+}
+
+.status-badge {
+  display: inline-flex;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-pending {
+  background-color: var(--amber-50);
+  color: var(--amber-700);
+  border: 1px solid var(--amber-200);
+}
+.status-cleaned {
+  background-color: var(--emerald-50);
+  color: var(--emerald-700);
+  border: 1px solid var(--emerald-200);
+}

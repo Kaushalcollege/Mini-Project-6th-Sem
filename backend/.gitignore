@@ -4,3 +4,4 @@
 /__pycache__
 /.venv
 yolov8n.pt
+/static/uploads

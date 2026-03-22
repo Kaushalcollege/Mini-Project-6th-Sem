@@ -1,7 +1,7 @@
 import requests
 
 url = 'http://127.0.0.1:8000/detect' 
-image_path = 'test.jpg' 
+image_path = 'test2.jpg' 
 
 print(f"Sending {image_path} to AI server...")
 

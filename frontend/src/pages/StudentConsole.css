@@ -1,0 +1,107 @@
+/* src/pages/StudentConsole.css */
+.console-container {
+  min-height: 100vh;
+  background-color: var(--gray-50);
+}
+
+.console-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--gray-200);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-logo {
+  height: 40px;
+  width: auto;
+}
+
+.header-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  border-left: 1px solid var(--gray-200);
+  padding-left: 1rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--gray-700);
+}
+
+.civic-score {
+  background-color: var(--emerald-50);
+  color: var(--emerald-700);
+  border: 1px solid var(--emerald-200);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.logout-btn {
+  background: transparent;
+  border: 1px solid var(--gray-200);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--gray-600);
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.logout-btn:hover {
+  background: var(--gray-100);
+  color: var(--gray-900);
+}
+
+.console-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+/* Responsive grid for mobile */
+@media (max-width: 768px) {
+  .console-main {
+    grid-template-columns: 1fr;
+  }
+}
+
+.welcome-text {
+  margin-bottom: 1.5rem;
+}
+
+.welcome-text h2 {
+  font-size: 1.5rem;
+  color: var(--gray-900);
+  margin-bottom: 0.3rem;
+}
+
+.welcome-text p {
+  color: var(--gray-500);
+  font-size: 0.9rem;
+}

@@ -1,0 +1,14 @@
+/* src/components/WeeklyChart.css */
+.chart-card {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.chart-title {
+  font-size: 0.875rem;
+  color: var(--gray-700);
+  margin: 0 0 1.5rem 0;
+  font-weight: 500;
+}

@@ -1,0 +1,58 @@
+/* src/components/UploadZone.css */
+.upload-zone-card {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.upload-zone-header {
+  font-size: 1rem;
+  color: var(--gray-700);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.drop-area {
+  border: 2px dashed var(--gray-300);
+  border-radius: 8px;
+  padding: 3rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: transparent;
+}
+
+.drop-area:hover,
+.drop-area.dragging {
+  border-color: var(--emerald-400);
+  background-color: var(--emerald-50);
+}
+
+.icon-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+  transition: background-color 0.2s ease;
+}
+
+.drop-area.dragging .icon-container {
+  background-color: var(--emerald-100);
+}
+
+.upload-text {
+  font-size: 0.95rem;
+  color: var(--gray-700);
+  margin-bottom: 0.25rem;
+}
+
+.upload-subtext {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+}

@@ -1,0 +1,63 @@
+/* src/components/MetricCard.css */
+.metric-card {
+  background-color: #ffffff;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.metric-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.metric-title {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin: 0;
+}
+
+.metric-icon-wrapper {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.metric-icon-neutral {
+  background: var(--gray-50);
+  border-color: var(--gray-200);
+  color: var(--gray-600);
+}
+.metric-icon-alert {
+  background: var(--red-50);
+  border-color: var(--red-200);
+  color: var(--red-600);
+}
+.metric-icon-success {
+  background: var(--emerald-50);
+  border-color: var(--emerald-200);
+  color: var(--emerald-600);
+}
+
+.metric-value {
+  font-size: 1.875rem;
+  color: var(--gray-900);
+  margin: 0 0 0.5rem 0;
+  line-height: 1;
+}
+
+.metric-trend {
+  font-size: 0.75rem;
+  margin: 0;
+}
+.trend-neutral {
+  color: var(--gray-500);
+}
+.trend-alert {
+  color: var(--red-500);
+}
+.trend-success {
+  color: var(--emerald-600);
+}
